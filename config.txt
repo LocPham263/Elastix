@@ -1,0 +1,13 @@
+# # new_ct_sitk = sitk.GetImageFromArray(ct[z:z_len, x-30:x+x_len+100, y-30:y+y_len+130])
+# new_ct_sitk = sitk.GetImageFromArray(ct[z:z_len, x-15:x+x_len+30, y-15:y+y_len+30])
+# new_ct_sitk.SetSpacing(ct_sitk.GetSpacing())
+# new_ct_sitk.SetDirection(ct_sitk.GetDirection())
+# # new_ct_sitk.SetOrigin(ct_sitk.TransformIndexToPhysicalPoint((y-30,x-30,z)))
+# new_ct_sitk.SetOrigin(ct_sitk.TransformIndexToPhysicalPoint((y-15,x-15,z)))
+
+# # new_seg_sitk = sitk.GetImageFromArray(seg[z:z_len, x-30:x+x_len+100, y-30:y+y_len+130])
+# new_seg_sitk = sitk.GetImageFromArray(seg[z:z_len, x-15:x+x_len+30, y-15:y+y_len+30])
+# new_seg_sitk.SetSpacing(seg_sitk.GetSpacing())
+# new_seg_sitk.SetDirection(seg_sitk.GetDirection())
+# # new_seg_sitk.SetOrigin(seg_sitk.TransformIndexToPhysicalPoint((y-30,x-30,z)))
+# new_seg_sitk.SetOrigin(seg_sitk.TransformIndexToPhysicalPoint((y-15,x-15,z)))

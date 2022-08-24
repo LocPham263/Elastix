@@ -1,0 +1,20 @@
+p103
+//forward statergy
+
+elastix 
+-f F:\Works\SPECT_PET_CT_liver_TARE\LSF_quantification\example\data\p0103_IsotropCT001_crop.nii.gz 
+-fMask F:\Works\SPECT_PET_CT_liver_TARE\LSF_quantification\example\mask_seg\p0103_IsotropCT001_liver_crop_mask.nii.gz 
+-m F:\Works\SPECT_PET_CT_liver_TARE\LSF_quantification\example\data\p103_diag_pv_006.nii.gz 
+-mMask F:\Works\SPECT_PET_CT_liver_TARE\LSF_quantification\example\mask_seg\p103_diag_pv_006_mask.nii.gz 
+-p F:\Works\SPECT_PET_CT_liver_TARE\LSF_quantification\example\script\RigidparaPI.txt 
+-p F:\Works\SPECT_PET_CT_liver_TARE\LSF_quantification\example\script\NonrigidparaPI.txt 
+-out F:\Works\SPECT_PET_CT_liver_TARE\LSF_quantification\example\registration\pv_ncsp 
+
+
+
+
+
+
+
+
+
